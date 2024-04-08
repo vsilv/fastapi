@@ -1,11 +1,7 @@
 name: test-and-deploy
 
 on:
-  workflow_call:
-
-permissions:
-  id-token: write
-  contents: read
+  push:
 
 jobs:
   test:
